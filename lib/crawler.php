@@ -11,6 +11,7 @@
 // Set Namespace
 namespace WronnaySearchLib;
 
+// Load settings
 require_once 'settings.php';
 
 /**
