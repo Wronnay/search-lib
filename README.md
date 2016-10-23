@@ -13,3 +13,7 @@ License: GNU General Public License
 Author: Christoph Daniel Miksche
 
 Website: Actually none
+
+## Dependencies
+
+The crawler uses BeautifulSoup for handling the html code.
