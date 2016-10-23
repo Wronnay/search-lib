@@ -2,7 +2,7 @@
 /* 
  * 	Wronnay Search Library
  *  
- * 	Copyright 2015, 2016 Christoph Daniel Miksche
+ * 	Copyright 2016 Christoph Daniel Miksche
  * 	All rights reserved.
  * 
  * 	License: GNU General Public License
