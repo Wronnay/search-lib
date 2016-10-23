@@ -9,5 +9,7 @@ When finished, this project will probably use Python (because it's the better so
 
 ## General Information
 License: GNU General Public License
+
 Author: Christoph Daniel Miksche
+
 Website: Actually none
