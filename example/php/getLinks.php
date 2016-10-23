@@ -9,7 +9,7 @@
 */
 
 // Load the lib
-require_once '../index.php';
+require_once '../../index.php';
 
 // Start class
 $crawler = new WronnaySearchLib\Crawler();
