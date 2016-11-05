@@ -37,17 +37,17 @@ class Crawler:
 		self.soup = BeautifulSoup(self.html, "lxml")
 		
 	'''
-	Generate a ID of the crawled entry
+	Open the connection to the website
 	 
 	@author		Christoph Daniel Miksche (Wronnay)
-	@date		23.10.2016
+	@date		31.10.2016
 	@package 	WronnaySearchLib
 	@since		Version 0.1
 	@status 	UNTESTED!
 	 
 	@param		String	url		The URL of the crawled entry.
 	 
-	@return 	String			An sha1-Hash of the URL & SALT
+	@return 					The Response (HTML-Code)
 	'''
 	def openConnection(self, url):
 		
