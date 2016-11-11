@@ -16,4 +16,18 @@ Website: Actually none
 
 ## Dependencies
 
-The crawler uses BeautifulSoup for handling the html code.
+The crawler uses BeautifulSoup for handling the html code and MongoEngine for Data-Management.
+
+BeautifulSoup will be shipped with this application. MongoEngine doesn't.
+
+## Installation
+
+Please install MongoEngine and MongoDB first:
+```
+pip install -U mongoengine
+```
+On Debian Servers:
+```
+apt install mongodb
+```
+Next steps: create a MongoDB Database and edit the lib/settings.py file.
