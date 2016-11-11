@@ -10,12 +10,7 @@ from mongoengine import *       # Import MongoEngine
 import settings                 # Import the application settings.
 import datetime
 # Connect to MongoDB Database
-connect(
-    name=settings.connectionname,
-    username=settings.dbusername,
-    password=settings.dbpassword,
-    host=settings.dbhost
-)
+connect(settings.dbname)
 
 '''
 Define Website Document
@@ -46,8 +41,8 @@ The Warehouse Class
 '''
 class Warehouse:
 
-	'''
-	Save the Data of a Website
+    '''
+    Save the Data of a Website
 
 	@author		Christoph Daniel Miksche (Wronnay)
 	@date		11.11.2016

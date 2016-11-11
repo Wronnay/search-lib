@@ -34,7 +34,6 @@ useragent = 'Some Bot using the Wronnay Search Library'
 '''
 MongoDB Connection Settings
 '''
-connectionname = 'searchdb'
+dbname = 'searchlibdev'
 dbusername = ''
 dbpassword = ''
-dbhost = 'mongodb://localhost/searchlibdev'
