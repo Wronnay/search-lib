@@ -16,14 +16,12 @@ Website: Actually none
 
 The crawler uses BeautifulSoup for handling the html code and MongoEngine for Data-Management.
 
-BeautifulSoup will be shipped with this application. MongoEngine doesn't.
-
 ## Installation
 
-Please install MongoEngine and MongoDB first:
+Please install MongoDB, BeautifulSoup and MongoEngine first:
 
 ```
-pip install -U mongoengine
+pip install BeautifulSoup4 lxml mongoengine
 ```
 
 On Debian Servers:

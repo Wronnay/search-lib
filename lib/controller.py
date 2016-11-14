@@ -105,6 +105,21 @@ class Controller:
 
         for link in links:
             links.append(self.indexWebsite(link)) # get links from website and add to array.
+
+    '''
+    Index a Website and the linked Websites without end.
+
+    @author		Christoph Daniel Miksche (Wronnay)
+    @date		12.11.2016
+    @package 	WronnaySearchLib
+    @since		Version 0.1
+    @status 	UNTESTED!
+    '''
+    def indexInfinityLinksAndSleep(self, url):
+        links = self.indexWebsite(url) # array for links.
+
+        for link in links:
+            links.append(self.indexWebsite(link)) # get links from website and add to array.
             links.remove(link) # remove the actual link (to save space).
             time.sleep(1) # sleep one second after every website (for a better cpu livetime).
 
@@ -122,4 +137,4 @@ Test "indexInfinityLinks" (WARNING: PROCESS WILL NOT END!)
     print(cont.indexInfinityLinks('http://christoph.miksche.org'))
 '''
 cont = Controller()
-print(cont.indexInfinityLinks('http://christoph.miksche.org'))
+print(cont.indexInfinityLinksAndSleep('http://christoph.miksche.org'))

@@ -50,7 +50,7 @@ class Crawler:
 	@return 					The Response (HTML-Code)
 	'''
 	def openConnection(self, url):
-		
+
 		opener = urllib2.build_opener()
 		opener.addheaders = [('User-Agent', settings.useragent)]
 		response = opener.open(url).read()
