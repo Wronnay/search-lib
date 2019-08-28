@@ -7,8 +7,8 @@ All rights reserved.
 License: GNU General Public License
 '''
 import time
-from crawler import * 	    # Import the Crawler.
-from warehouse import *   # Import the Data Warehouse.
+from wronnay_search_lib.crawler import * 	    # Import the Crawler.
+from wronnay_search_lib.warehouse import *      # Import the Data Warehouse.
 
 '''
 The Controller Class

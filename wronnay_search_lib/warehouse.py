@@ -6,11 +6,11 @@ All rights reserved.
 
 License: GNU General Public License
 '''
-from mongoengine import *       # Import MongoEngine
-import settings                 # Import the application settings.
+from mongoengine import *                  # Import MongoEngine
+import wronnay_search_lib.settings                 # Import the application settings.
 import datetime
 # Connect to MongoDB Database
-connect(settings.dbname)
+connect(wronnay_search_lib.settings.dbname)
 
 '''
 Define Website Document

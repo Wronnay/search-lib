@@ -7,11 +7,10 @@ All rights reserved.
 License: GNU General Public License
 '''
 
-import settings 	# Import the settings file
-import urllib2		# Used to open URLs
-import urlparse		# Parse URLs
+import wronnay_search_lib.settings 			# Import the settings file
+import urllib.request				# Used to open URLs
 import re
-from bs4 import BeautifulSoup	# Import BeautifulSoap to handle the html
+from bs4 import BeautifulSoup		# Import BeautifulSoap to handle the html
 
 '''
 The Crawler Class
@@ -51,8 +50,8 @@ class Crawler:
 	'''
 	def openConnection(self, url):
 
-		opener = urllib2.build_opener()
-		opener.addheaders = [('User-Agent', settings.useragent)]
+		opener = urllib.request.build_opener()
+		opener.addheaders = [('User-Agent', wronnay_search_lib.settings.useragent)]
 		response = opener.open(url).read()
 
 		return response
@@ -70,7 +69,7 @@ class Crawler:
 	'''
 	def generateID(self):
 		# ToDo: Add some hashing algo here
-		return url
+		return #url
 
 	'''
 	Get the Links of a Website
