@@ -1,6 +1,7 @@
 # Wronnay Search Library
 
 [![PyPI version](https://badge.fury.io/py/wronnay-search-lib.svg)](https://badge.fury.io/py/wronnay-search-lib)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/wronnay-search-lib)
 
 A library of classes which can be used to build a search engine.
 
