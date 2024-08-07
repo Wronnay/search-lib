@@ -10,7 +10,6 @@ setuptools.setup(name='wronnay_search_lib',
       long_description_content_type="text/markdown",
       url='https://github.com/Wronnay/search-lib',
       author='Christoph Miksche',
-      author_email='christoph@miksche.org',
       license='GPLv3',
       classifiers=[
             "Programming Language :: Python :: 3",
